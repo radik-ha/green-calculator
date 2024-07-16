@@ -1,0 +1,72 @@
+body{
+	background-color: lightgreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+
+button {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #413F42;
+	color: white;
+	font-size: 3rem;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+}
+
+#dis {
+	width: 450px;
+	padding: 10px;
+	border: none;
+	background-color: #413F42;
+	color: white;
+	font-size: 5rem;
+	border-radius: 1rem;
+}
+
+#buts {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	padding: 25px;
+	gap: 10px;
+}
+
+#calculate {
+	margin: 1rem;
+	background-color: black;
+	border-radius: 2rem;
+}
+
+button:hover {
+	background-color: lightgreen;
+	color: black;
+}
+
+button:active {
+	background-color: green;
+}
+
+.operator {
+	background-color: lightgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
